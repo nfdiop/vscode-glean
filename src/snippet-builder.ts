@@ -1,20 +1,20 @@
 import template from "@babel/template";
 
 export const buildStateHook = template(`
-const [STATE_PROP, STATE_SETTER] = useState(STATE_VALUE);
+const [STATE_PROP, STATE_SETTER] = React.useState(STATE_VALUE);
 `);
 
 export const buildRefHook = template(`
-const VAR_NAME = useRef(INITIAL_VALUE);
+const VAR_NAME = React.useRef(INITIAL_VALUE);
 `);
 
 export const buildEffectHook = template(`
-useEffect(() =>  { EFFECT });
+React.useEffect(() =>  { EFFECT });
 `);
 
 export const buildUseCallbackHook = template(`
-useCallback(CALLBACK);
+React.useCallback(CALLBACK);
 `);
-export const buildUseMemo= template(`
-const VAR = useMemo(() => EXPRESSION);
+export const buildUseMemo = template(`
+const VAR = React.useMemo(() => EXPRESSION);
 `);

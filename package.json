@@ -1,6 +1,6 @@
 {
-  "name": "glean",
-  "displayName": "glean",
+  "name": "react-refactoring",
+  "displayName": "react-refactoring",
   "description": "The extension provides refactoring tools for your React codebase",
   "version": "4.8.0",
   "publisher": "wix",
@@ -104,7 +104,7 @@
     "sinon-chai": "^3.0.0",
     "tslint-config-prettier": "^1.17.0",
     "typescript": "^2.6.1",
-    "vscode": "^1.1.36"
+    "vscode": "^1.1.37"
   },
   "dependencies": {
     "@babel/core": "^7.1.2",
